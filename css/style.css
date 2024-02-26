@@ -1,0 +1,624 @@
+@charset "uft-8";
+
+#wrap{
+    position: relative;
+}
+
+/* 헤더 */
+.top_head{
+    display: flex;
+    padding: 5px 70px 6px 70px;
+    border-bottom: 1px solid #eeeeee;
+}
+.top_head div{
+    display: flex;
+}
+.city_logo{
+    width: 116px;
+    height: 25px;
+    margin-top: 8px;
+    background-image: url(../figma_img/go_ulsan\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    text-indent: -9999px;
+}
+.search_box input{
+    margin-left: 855px;
+    width: 280px;
+    height: 40px;
+    border: 1px solid #a0a0a0;
+    background-color: #fdfdfd;
+    border-radius: 3px;
+}
+.icon{
+    text-indent: -9999px;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+}
+.search{
+    background-image: url(../figma_img/Form\ →\ Button.png);
+}
+.like{
+    background-image: url(../figma_img/Button.png);
+}
+.th_text{
+    margin-left: 205px;
+    margin-top: 11px;
+    font-size: 18px;
+}
+.th_text a{
+    margin-right: 15px;
+    flex-wrap: nowrap;
+    display: inline-block;
+    background-image: url(../figma_img/Link.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+   padding-right: 15px;
+    color: #a0a0a0;
+}
+ .bottom_head{
+    display: flex;
+    padding: 5px 70px 6px 70px;
+    justify-content: space-between;
+ }
+ .site_logo{
+    width: 188px;
+    height: 37px;
+    margin-top: 5px;
+    background-image: url(../figma_img/top_logo\ 1.png);
+    text-indent: -9999px;
+ }
+ .bottom_head ul{
+    display: flex;
+    margin-left: 600px;
+ }
+ .bottom_head li{
+    padding-right: 20px;
+    padding-left: 20px;
+ }
+ .bottom_head li a{
+    color: #222;
+    padding: 5px;
+ }
+ .header_ngb{
+    padding-top: 10px;
+    font-size: 18px;
+    margin-left: -600px;
+ }
+ .bh_icon{
+    display: flex;
+ }
+ .icon_weather a{
+    display: inline-block;
+    text-indent: -9999px;
+    width: 85px;
+    height: 25px;
+    background-image: url(../figma_img/Group\ 12.png);
+    margin-right: 26px;
+ }
+ .icon_cate a{
+    display: inline-block;
+    text-indent: -9999px;
+    width: 44px;
+    height: 44px;
+    background-image: url(../figma_img/Group\ 13.png);
+ }
+
+ /* 본문1 */
+ .m1_in{
+    position: relative;
+    margin-bottom: 125px;
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .m1_photo{
+    margin-bottom: 35px;
+ }
+ .m1_text{
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: 225px;
+    color: #fdfdfd;
+ }
+ .m1_subTitle{
+    font-size: 18px;
+ }
+ .m1_title{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 1.8;
+ }
+ .m1_text button{
+    width: 51px;
+    height: 51px;
+    background-image: url(../figma_img/pin\ 1.png);
+    text-indent: -9999px;
+ }
+.m1_pager{
+    width: 252px;
+    height: 39px;
+    background-image: url(../figma_img/image\ 1.png);
+    text-indent: -9999px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* 본문2 */
+.main2{
+    margin-bottom: 125px;
+}
+.m2_in{
+    position: relative;
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.title{
+    font-size: 28px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: 1;
+    font-weight: 500;
+}
+.m2_photo img{
+    width: 1196px;
+    height: auto;
+}
+.m2_text{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+}
+.con_name{
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+}
+.con_title{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.con_text{
+    font-size: 15px;
+    font-weight: 500;
+}
+.m2_pager{
+    position: absolute;
+    top: 290px;
+    left: 50px;
+    display: flex;
+}
+.pager_num p{
+    padding-right: 2px;
+}
+.current{
+    color: #017DC3;
+    font-size: 15px;
+    font-weight: 500;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    left: -23px;
+    width: 46px;
+    height: 43px;
+    text-indent: -9999px;
+    background-image: url(../figma_img/ButtonPrevious.png);
+}
+.m2_btn .prev{
+    margin-top: 15px;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    right: -23px;
+    width: 46px;
+    height: 43px;
+    text-indent: -9999px;
+    background-image: url(../figma_img/ButtonNext.png);
+}
+.m2_btn .next{
+    margin-top: 15px;
+}
+
+/* 본문3 */
+.main3{
+    margin-bottom: 125px;
+}
+.bg{
+    padding-top: 30px ;
+    padding-bottom: 30px;
+    background-color: #F8F9FC;
+}
+.m3_in{
+    position: relative;
+    display: flex;
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.m3_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 28px;
+    padding-right: 20px;
+    text-align: center;
+}
+.m3_name .name{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1;
+}
+.m3_name .subname{
+    font-weight: 900;
+    font-size: 35px;
+    opacity: 0.2;
+}
+.m3_name_btn a{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../figma_img/Link.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+
+}
+.m3_n_prev a{
+    position: absolute;
+    top: 0;
+    left: 110px;
+    transform: rotate(180deg);
+
+}
+.m3_con{
+    padding-bottom: 100px;
+    text-align: left;
+}
+.m3_pager{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.m3_pager_btn{
+    display: flex;
+}
+.pager_num{
+    display: flex;
+    padding: 13px 147px 0 10px;
+    
+}
+.m3_pager_btn button{
+    width: 40px;
+    height: 40px;
+    text-indent: -9999px;
+}
+.m3_pg_prev{
+    background-image: url(../figma_img/m5_prev.png);
+}
+.m3_pg_next{
+    background-image: url(../figma_img/m5_next.png);
+}
+
+
+/* 본문4 */
+.main4{
+    margin-bottom: 125px;
+}
+.m4_in{
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.m4_icon{
+    position: relative;
+}
+.m4_icon ul{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.m4_icon li{
+    display: flex;
+    padding: 43px 0 44px 69px;
+    /* background-color: lightgray; */
+}
+.m4_icon li::after{
+    content: "";
+    display: block;
+    margin-left:68px;
+    width: 1px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.m4_icon li:last-child::after{
+    content: "";
+    width: 0;
+    height: 0;
+}
+.m4_icon li a{
+    display: inline-block;
+    width: 100px;
+    padding-top: 100px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.m4_icon1 a{
+    background-image: url(../figma_img/icon_nature.png);
+}
+.m4_icon2 a{
+    background-image: url(../figma_img/icon_leisure.png);
+}
+.m4_icon3 a{
+    background-image: url(../figma_img/icon_experience.png);
+}
+.m4_icon4 a{
+    background-image: url(../figma_img/icon_culture_experience.png);
+}
+.m4_icon5 a{
+    background-image: url(../figma_img/icon_food.png);
+}
+.m4_btn .prev{
+    margin-top: -20px;
+}
+.m4_btn .next{
+    margin-top: -20px;
+}
+
+/* 본문5 */
+.main5{
+    margin-bottom: 125px;
+}
+.m5_back.bg{
+    height: 309px;
+    padding-top: 30px;
+}
+.m5_in{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+.m5_text{
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-right: 194px;
+    width: 388px;
+}
+.m5_text .con_title{
+    line-height: 1.4;
+}
+.m5_text .con_text{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+.m5_text a{
+    padding: 1px;
+    font-display: 16px;
+    font-weight: 500;
+    color: #222;
+    border-bottom: 1px solid #222;
+}
+.m5_photo ul{
+    display: flex;
+    justify-content: space-between;
+}
+.m5_photo{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -135px;
+}
+.m5_photo .on{
+    margin-top: -20px;
+}
+.m5_photo li{
+    margin-right: 54px;
+}
+.m5_photo li:first-child{
+    margin-right: 27px;
+}
+.m5_pager{
+    position: absolute;
+    bottom: 0;
+    left: 265px;
+    margin-bottom: -10px;
+    display: flex;
+}
+.m5_prev{
+    width: 41px;
+    height: 40px;
+    background-image: url(../figma_img/m5_prev.png);
+    text-indent: -9999px;
+}
+.m5_next{
+    width: 41px;
+    height: 40px;
+    background-image: url(../figma_img/m5_next.png);
+    text-indent: -9999px;
+}
+.m5_pager .pager_num{
+    margin-top: -5px;
+}
+
+/* 본문6 */
+.main6{
+    width: 1196px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 125px;
+}
+.m6_in{
+    position: relative;
+}
+.m6_icon ul{
+    display: flex;
+    padding-left: 503px;
+    padding-bottom: 30px;
+}
+.m6_icon a{
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 28px;
+    text-indent: -9999px;
+}
+.m6_kakao a{
+    background-image: url(../figma_img/ka_story.png);
+}
+.m6_facebook a{
+    background-image: url(../figma_img/facebook.png);
+}
+.m6_twitter a{
+    background-image: url(../figma_img/twitter.png);
+}
+.m6_insta a{
+    background-image: url(../figma_img/insta.png);
+}
+.m6_youtub a{
+    background-image: url(../figma_img/youtub.png);
+}
+.m6_content{
+    display: flex;
+    justify-content: space-between;
+}
+.m6_con_insta ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.m6_con_insta li{
+    margin-left: 20px;
+}
+.m6_con_insta li:nth-child(1),.m6_con_insta li:nth-child(4) {
+    margin-left: 0;
+}
+.m6_con_insta li:nth-child(-n+3){
+    margin-bottom: 20px;
+}
+.m6_prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    background-image: url(../figma_img/m6_prev.png);
+    text-indent: -9999px;
+}
+.m6_next{
+    position: absolute;
+    top: 50%;
+    left: 541px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../figma_img/m6_next.png);
+    text-indent: -9999px;
+}
+.m6_pager{
+    display: flex;
+    padding-top: 41px;
+    margin-left: 280px;
+}
+.m6_pager a{
+    display: inline-block;
+    text-indent: -9999px;
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+    border-radius: 50px;
+    background-color: #C6E0EF;
+}
+.m6_pager .on a{
+    background-color: #017DC3;
+}
+
+/* 푸터 */
+.f_ngb{
+    background-color: #494949;
+}
+.f_ngb_in{
+    width: 1196px;
+    height: 47px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.f_ngb ul{
+    display: flex;
+}
+.f_ngb_l li{
+    display: flex;
+}
+.f_ngb_l a{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+    padding:  12px 80px 13px 20px;
+    margin-right: 10px;
+    background-image: url(../figma_img/image\ 6.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.f_ngb_l li::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 47px;
+    background-color: #969696;
+}
+.f_ngb_r a{
+    display: inline-block;
+    text-indent: -9999px;
+    margin-top: 8px;
+    margin-left: 6px;
+    width: 30px;
+    height: 28px;
+    background-size: 100%;
+}
+.f_sns1 a{
+    background-image: url(../figma_img/ka_story.png);
+}
+.f_sns2 a{
+    background-image: url(../figma_img/facebook.png);
+}
+.f_sns3 a{
+    background-image: url(../figma_img/twitter.png);
+}
+.f_sns4 a{
+    background-image: url(../figma_img/insta.png);
+}
+.f_sns5 a{
+    background-image: url(../figma_img/youtub.png);
+}
+.f_info{
+    display: flex;
+}
+.f_logo{
+    width: 142px;
+    height: 28px;
+    background-image: url(../figma_img/btm_logo\ 1.png);
+}
+.f_info_1 li{
+    display: flex;
+}
+.f_1-1 p{
+    display: flex;
+    padding-right: 20px;
+}
+.f_1-1 p::after{
+    content: "|";
+    display: block;
+    padding-left: 20px;
+}
